@@ -1,0 +1,99 @@
+%-------------------------------------------------------------------------------
+%	SECTION TITLE
+%-------------------------------------------------------------------------------
+\cvsection{Research Experience}
+
+
+%-------------------------------------------------------------------------------
+%	CONTENT
+%-------------------------------------------------------------------------------
+\begin{cventries}
+
+%---------------------------------------------------------
+  \cventry
+    {\it Instructor: Dr. Limsoon Wong, School of Computing, National University of Singapore} % Organisation
+    {\textsc{BucketMap}: New Cache-efficient Alignment-free Short Read Mapper} % Project
+    {Singapore} % Location
+    {Aug 2021 - Current} % Date(s)
+    {
+      \begin{cvitems} % Description(s) of project
+        \item {Proposed a new hierarchical, alignment-free mapping method for finding the locations of short reads on a long DNA reference genome}
+        \item {Designed a new data structure \textit{bit matrix} that allows fast bit-parallel pop count for multiple bit arrays, facilitating fast candidate region filtering}
+        \item {Reduced the sizes of index files so that they can fit in the cache of ordinary computers, and significantly speed up mapping}
+        \item {Implemented a short read mapper that can find candidate regions for 1 million short reads (150 bp) in just 44 seconds}
+        \item {\textbf{Stage of code}: \href{https://github.com/GZHoffie/bucket-map}{GitHub/bucket-map}}
+      \end{cvitems}
+    }
+
+
+%---------------------------------------------------------
+  \cventry
+    {\it Instructor: Dr. Seth Gilbert, School of Computing, National University of Singapore} % Organisation
+    {Sublinear-space Sketching Algorithm for Identifying Correlation in Stream of Samples} % Project
+    {Singapore} % Location
+    {Aug 2021 - Dec 2021} % Date(s)
+    {
+      \begin{cvitems} % Description(s) of project
+      \item {Designed a novel, sublinear-space algorithm to estimate the $\ell_2$-independence between two random variables based on a stream of samples from their joint distribution}
+    \item {Mathematically proved and practically verified the bias and variance of our new estimator}
+    \item {Implemented the algorithm and showed that the novel algorithm has similar or better performance than state-of-the-art sketching algorithms while practically using 16x less space}
+        \item {\textbf{Publication}: \href{https://arxiv.org/abs/2211.10137}{arxiv/2211.10137},\qquad \textbf{Stage of code}: \href{https://github.com/GZHoffie/independence-in-streams}{GitHub/independence-in-streams}}
+      \end{cvitems}
+    }
+
+
+%---------------------------------------------------------
+
+\cventry
+    {\it Instructor: Dr. Hongyi Xin, UM-SJTU Joint Institute, Shanghai Jiao Tong University} % Organisation
+    {Greedy Approximate String Matching Algorithm} % Project
+    {Shanghai, China} % Location
+    {Mar 2021 - Current} % Date(s)
+    {
+      \begin{cvitems} % Description(s) of project
+        \item {Designed a greedy, bit-parallel algorithm for the approximate string matching problem to eliminate the backtracking step and alignment score calculation in the traditional dynamic programming algorithms}
+    \item {Proved the theoretical optimal performance (span and work) of distributed versions of existing string alignment algorithms}
+    \item {Utilized Intel SIMD instructions to achieve about 5~16x speed up than the state-of-the-art distributed Needleman-Wunsch implementation}
+    \item {\textbf{Stage of code}: \href{https://github.com/GZHoffie/approximate-string-matching}{GitHub/approximate-string-matching}}
+      \end{cvitems}
+    }
+
+
+\cventry
+    {\it Instructor: Dr. Youyi Bi, UM-SJTU Joint Institute, Shanghai Jiao Tong University} % Organisation
+    {Research Assistant: Analysis of Car Repair Data} % Project
+    {Shanghai, China} % Location
+    {May 2020 - Sep 2020} % Date(s)
+    {
+      \begin{cvitems} % Description(s) of project
+        \item {Performed data cleaning, standardizing, analysis, and time series predictions on a car repair dataset from 4S stores}
+    \item {Used Chinese Natural Language Processing and TextRank algorithm to extract the most important keywords from the fault description of cars and categorize the data based on the keywords}
+    \item {Analyzed the distribution of data, utilized correlation analysis, linear and logistic regression, SVM, and neural networks to predict the type of service and working hours based on the car information (brands, age, etc.)}
+    \item {Adjusted hyper-parameters of the neural network so that predictions on working hours are accurate (with error less than 12 hours) 94\% of the time}
+      \end{cvitems}
+    }
+
+%---------------------------------------------------------
+
+
+
+%---------------------------------------------------------
+
+\cventry
+    {\it Instructor: Dr. Paul Weng, UM-SJTU Joint Institute, Shanghai Jiao Tong University} % Organisation
+    {Interactive Search Based on Deep Reinforcement Learning} % Project
+    {Shanghai, China} % Location
+    {Apr 2019 - Sep 2020} % Date(s)
+    {
+      \begin{cvitems} % Description(s) of project
+        \item {Predicted user activity (clicking on a hotel, interacting with a picture, or adding a filter) on the Trivago hotel recommendation website on weekends based on the user history on weekdays}
+        \item {Constructed a deep reinforcement learning approach of recommendation and built a user model and simulator based on the data}
+        \item {Applied the Trust Region Policy Optimization and Deep Q Network algorithm to achieve a click-through rate (probability of successful recommendation) of about 0.37}
+        \item {\textbf{Publication}: \href{https://arxiv.org/abs/2012.06052}{arxiv/2012.06052}}
+      \end{cvitems}
+    }
+
+%---------------------------------------------------------
+
+
+\end{cventries}
